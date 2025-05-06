@@ -23,7 +23,7 @@ list_t *add_node_end(list_t **head, int n)
     return (new);
 }
 
-/* Insert node into sorted list in order */
+/* Insert node into the sorted list in order */
 list_t *insert_sorted(list_t **head, int n)
 {
     list_t *new = malloc(sizeof(list_t)), *curr = *head, *prev = NULL;
