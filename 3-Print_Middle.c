@@ -27,7 +27,7 @@ dlist_t *add_dnode_end(dlist_t **head, int n)
     return (new);
 }
 
-/* Print middle node */
+/* Print Middle node */
 void print_Middle(dlist_t *head)
 {
     dlist_t *even = head, *odd = head;
