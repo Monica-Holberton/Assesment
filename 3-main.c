@@ -1,4 +1,4 @@
-#include "dlist.h" /* ← This should fix your error */
+#include "dlist.h"
 
 int main(int argc, char *argv[])
 {
