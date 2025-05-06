@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/* Add node to the end of the list */
+/* Add a node to the end of the list */
 list_t *add_node_end(list_t **head, int n)
 {
     list_t *new_node = malloc(sizeof(list_t));
