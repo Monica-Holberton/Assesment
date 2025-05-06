@@ -12,7 +12,7 @@ typedef struct dlist_s
 } dlist_t;
 
 dlist_t *add_dnode_end(dlist_t **head, int n);
-void printMiddle(dlist_t *head);
+void print_Middle(dlist_t *head);
 void free_dlist(dlist_t *head);
 
 #endif /* DLIST_H */

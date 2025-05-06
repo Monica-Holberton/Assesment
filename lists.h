@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "dlist.h"
 
 /**
  * struct list_s - singly linked list node

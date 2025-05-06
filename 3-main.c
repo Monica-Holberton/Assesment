@@ -1,27 +1,20 @@
-#include "main.h"
+#include "dlist.h" /* ← This should fix your error */
 
 int main(int argc, char *argv[])
 {
-    node_t *head = NULL;
-    int i, num;
+    dlist_t *head = NULL;
+    int i;
 
     if (argc < 2)
     {
-        printf("The Middle List is %d\n", middle_list);
-        return 1;
+        printf("Middle\n");
+        return (1);
     }
 
     for (i = 1; i < argc; i++)
-    {
-        num = atoi(argv[i]);
-        append_node(&head, num);
-    }
-
-    printf("Doubly Linked List: ");
-    print_list(head);
+        add_dnode_end(&head, atoi(argv[i]));
 
     print_Middle(head);
-
-    free_list(head);
-    return 0;
+    free_dlist(head);
+    return (0);
 }
