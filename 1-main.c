@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * main - entry point
+ * main - starting point
  * @argc: argument count
  * @argv: argument vector
  *
